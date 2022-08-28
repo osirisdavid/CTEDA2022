@@ -111,7 +111,7 @@ public class BinaryTree<T> {
     
     
     
-    public void entreNiveles(){
+    public void entreNiveles(Cola<T> cola){
         cola.encolar(value);
         while(!cola.esVacia()){
             cola.desencolar(value);
