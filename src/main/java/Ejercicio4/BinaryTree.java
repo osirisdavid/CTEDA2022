@@ -109,12 +109,12 @@ public class BinaryTree<T> {
         return BinaryTree.counterLeaf; 
     }
     
-    Queue<T> queue = new LinkedList<>();
+    
     
     public void entreNiveles(){
-        queue.add(value);
-        while(!queue.isEmpty()){
-            queue.remove(value);
+        cola.encolar(value);
+        while(!cola.esVacia()){
+            cola.desencolar(value);
             System.out.println(value);
         }
     }
