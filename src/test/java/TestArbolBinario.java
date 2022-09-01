@@ -5,7 +5,7 @@ import Ejercicio4.ArbolBinario;
 
 
 
-public class TestBinaryTree {
+public class TestArbolBinario {
     public static void main(String[] args) {
         var nodo8 = new ArbolBinario(8, null, null);
         var nodo7 = new ArbolBinario(7, null, nodo8);

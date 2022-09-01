@@ -97,7 +97,7 @@ public class ArbolBinario<T> {
     //Contar hojas
     public int contarHojas(){
         if(this.hijoIzquierdo == null && this.hijoDerecho == null){
-            System.out.println("counting leaf: " + ++ArbolBinario.counterLeaf);
+            ++ArbolBinario.counterLeaf;
         }
         if(this.hijoIzquierdo!= null){
             this.hijoIzquierdo.contarHojas();
